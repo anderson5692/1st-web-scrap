@@ -8,3 +8,7 @@ soup = BeautifulSoup(html, 'html.parser')
 
 print(soup.prettify())
 
+medalhas = soup.find(class_="_margin-r-20")
+print(medalhas.string)
+
+
