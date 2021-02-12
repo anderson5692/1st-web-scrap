@@ -1,4 +1,4 @@
-# (PT-BR)
+##### (PT-BR)
 # Meu Primeiro Web Scrap
 
 **Nome do Projeto:** Meu primeiro Web Scrap.
@@ -12,7 +12,7 @@
 **Data de entrega:** 18/02/2021
 ####################################################################################################
 
-# (EN)
+###### (EN)
 # My First Web Scrap
 
 **Project Name:** My first Web Scrap.
