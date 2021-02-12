@@ -1,4 +1,4 @@
-Meu Primeiro Web Scrap
+#Meu Primeiro Web Scrap
 
 Nome do Projeto: Meu primeiro Web Scrap
 Descrição: Esse projeto consiste em um web scraping de uma pagina da wikipédia sobre as medalhas dos jogos olímpicos que cada país conquistou.
