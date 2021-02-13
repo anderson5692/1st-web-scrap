@@ -1,14 +1,10 @@
 from bs4 import BeautifulSoup
-
+from lxml import html
 import requests
 
-html = requests.get("https://www.climatempo.com.br/").content
-
-soup = BeautifulSoup(html, 'html.parser')
-
-print(soup.prettify())
-
-medalhas = soup.find(class_="_margin-r-20")
-print(medalhas.string)
+html_text = requests.get('https://pt.wikipedia.org/wiki/Atletas_mais_medalhados_nos_Jogos_Ol%C3%ADmpicos').text
+soup = BeautifulSoup(html_text, 'lxml')
+atleta = soup.find('table', class_= 'wikitable sortable').text
+print(atleta)
 
 
