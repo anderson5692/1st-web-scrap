@@ -11,7 +11,7 @@
 
 **Data de entrega:** 18/02/2021
 
-***Update:** mudança na escolha da página do qual os dados serão extraídos, 
+***Atualização:** mudança na escolha da página do qual os dados serão extraídos, 
 de https://pt.wikipedia.org/wiki/Quadro_de_medalhas_dos_Jogos_Ol%C3%ADmpicos <p>
  para https://pt.wikipedia.org/wiki/Atletas_mais_medalhados_nos_Jogos_Ol%C3%ADmpicos
 ####################################################################################################
