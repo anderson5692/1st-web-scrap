@@ -1,8 +1,6 @@
 ##### (PT-BR)
 # Web Scrap de Atletas mais medalhados
 
-**Nome do Projeto:** Meu primeiro Web Scrap.
-
 **Descrição:** Esse é o meu primeiro projeto de raspagem de dados. Consiste em um web scraping de uma pagina da wikipédia sobre as medalhas dos jogos olímpicos que cada país conquistou.
 
 **Objetivo:** Garimpar esses dados, tratá-los e armazená-los em uma tabela.
@@ -16,8 +14,6 @@
 
 ##### (EN)
 # Web Scrap of more medaled Athletes
-
-**Project Name:** My first Web Scrap.
 
 **Description:** This is my first data scraping project. Consists of a web scraping of a wikipedia page about the medals of the Olympic games that each country has won.
 
