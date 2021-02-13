@@ -17,7 +17,7 @@ de https://pt.wikipedia.org/wiki/Quadro_de_medalhas_dos_Jogos_Ol%C3%ADmpicos <p>
 ####################################################################################################
 
 ##### (EN)
-# web scrap of more medaled athletes
+# Web Scrap of more medaled Athletes
 
 **Project Name:** My first Web Scrap.
 
