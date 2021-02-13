@@ -27,7 +27,7 @@
 
 **Delivery date:** 02/18/2021
 
-***Page link:** https://pt.wikipedia.org/wiki/Atletas_mais_medalhados_nos_Jogos_Ol%C3%ADmpicos
+**Page link:** https://pt.wikipedia.org/wiki/Atletas_mais_medalhados_nos_Jogos_Ol%C3%ADmpicos
   
   
   
