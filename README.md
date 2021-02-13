@@ -11,9 +11,7 @@
 
 **Data de entrega:** 18/02/2021
 
-***Atualização:** mudança na escolha da página do qual os dados serão extraídos, 
-de https://pt.wikipedia.org/wiki/Quadro_de_medalhas_dos_Jogos_Ol%C3%ADmpicos <p>
- para https://pt.wikipedia.org/wiki/Atletas_mais_medalhados_nos_Jogos_Ol%C3%ADmpicos
+ **Link da página:** https://pt.wikipedia.org/wiki/Atletas_mais_medalhados_nos_Jogos_Ol%C3%ADmpicos
 ####################################################################################################
 
 ##### (EN)
@@ -29,9 +27,7 @@ de https://pt.wikipedia.org/wiki/Quadro_de_medalhas_dos_Jogos_Ol%C3%ADmpicos <p>
 
 **Delivery date:** 02/18/2021
 
-***Update:** change in the choice of the page from which the data will be extracted, 
- of https://pt.wikipedia.org/wiki/Quadro_de_medalhas_dos_Jogos_Ol%C3%ADmpicos <br/>
- for https://pt.wikipedia.org/wiki/Atletas_mais_medalhados_nos_Jogos_Ol%C3%ADmpicos
+***Page link:** https://pt.wikipedia.org/wiki/Atletas_mais_medalhados_nos_Jogos_Ol%C3%ADmpicos
   
   
   
