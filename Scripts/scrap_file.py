@@ -7,3 +7,4 @@ html_text = requests.get('https://pt.wikipedia.org/wiki/Atletas_mais_medalhados_
 soup = BeautifulSoup(html_text, 'lxml')
 atleta = soup.find('table', class_= 'wikitable sortable').text
 print(atleta)
+print('')
