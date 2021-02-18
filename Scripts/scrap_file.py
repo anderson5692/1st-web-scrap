@@ -1,19 +1,25 @@
+#esse código imprime todos os textos da tabela dos medalhistas
+
 from bs4 import BeautifulSoup
 import requests
-import pandas as pd
 
 html_text = requests.get('https://pt.wikipedia.org/wiki/Atletas_mais_medalhados_nos_Jogos_Ol%C3%ADmpicos').text
-soup = BeautifulSoup(html_text, 'lxml')
-atleta = soup.find_all('table', class_= 'wikitable sortable')
+soup = BeautifulSoup(html_text, 'html.parser')
+atleta = soup.find('table', class_= 'wikitable sortable')
 #posição,atleta,pais,ouro,prata,bronze,total
-#tupla guarda todos os dados
-records = []
-for result in results:
-    #posição --- date = result.find('strong').text[0:-1] + ', 2017'
-    #atleta --- lie = result.contents[1][1:-2]
-    # pais --- explanation = result.find('a').text[1:-1]
-    # ouro --- url = result.find('a')['href']
-    # prata --- records.append((date, lie, explanation, url))
-    # bronze
-    # total
+for results in atleta:
+    nome = atleta.find('tbody')    
+print(nome.text)
 
+
+#esse código abaixo imprimirá um Dataframe Pandas com os 10 maiores medalhistas do mundo
+#porém, deve ser executado num jupyter notebook ou Google Colab.
+
+import pandas as pd
+
+df = pd.read_html('https://pt.wikipedia.org/wiki/Atletas_mais_medalhados_nos_Jogos_Ol%C3%ADmpicos')[0][:-59]
+df = df.drop(columns=['Modalidade'])
+df = df.drop(columns=['Anos'])
+df = df.drop(columns=['Jogos'])
+df = df.drop(columns=['Sexo'])
+df
