@@ -14,6 +14,7 @@ print(nome.text)
 
 #esse código abaixo imprimirá um Dataframe Pandas com os 10 maiores medalhistas do mundo
 #porém, deve ser executado num jupyter notebook ou Google Colab.
+#você pode alterar o número de linhas do Dataframe o valor de [:-59]
 
 import pandas as pd
 
